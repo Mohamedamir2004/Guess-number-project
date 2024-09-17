@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: clasima;
+    src: url(fonts/CLASIMA_Personal_Use_Only-BF667e515c772d2.ttf);
+    font-family: auro;
+    src:url(fonts/Aurora.otf)
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.container{
+    display:inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    min-width: 400px;
+    border:2px solid none;
+    border-radius: 25px;
+    background-color: wheat;
+    background-image: radial-gradient(circle, rgb(49, 144, 228) 0%, rgb(41, 122, 204) 30%, rgb(29, 84, 166) 70%);
+    box-shadow: 10px 10px 74px 20px blue;
+    
+
+}
+h1{
+    font-family: auro;
+    text-align: center;
+    word-spacing: 3px;
+    font-size:30px;
+}
+input{
+    height: 50px;
+    width: 300px;
+    border-radius: 25px;
+    font-family: auro;
+    text-align: center;
+    border: none;
+    outline: none;
+    
+}
+button:hover{
+    cursor: pointer;
+    
+}
+button{
+    font-family: clasima;
+    height: 50px;
+    width: 300px;
+    border-radius: 23px;
+    background-color:greenyellow;
+    margin-top: 37px;
+    font-size: larger;
+    font-weight: bold;
+    border: none;
+
+
+}
+.para{
+    display: inline-block;
+    font-size: 25px;
+    font-family:auro;
+    font-weight: 600;
+}
+#score{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+#result{
+    text-align: center;
+    margin-top: 40px;
+}
